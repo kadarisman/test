@@ -69,7 +69,7 @@
     document.onreadystatechange = () => {
         if (document.readyState === "complete") {
             
-            $('#data_pasien').DataTable();
+            $('#data_pasien').DataTable({ "scrollX": true});
             
         }
     }

@@ -19,7 +19,7 @@ class Pendaftaran extends CI_Controller
                 'tgl_lahir' => $this->input->post('tgl_lahir'),
                 'tgl_berobat' => $this->input->post('tgl_berobat'),
                 'id_asuransi' => $this->input->post('id_asuransi'),
-                'id_polikllinik' => $this->input->post('id_poliklinik'),
+                'id_poliklinik' => $this->input->post('id_poliklinik'),
                 'id_dokter' => $this->input->post('id_dokter'),
             ];
 
@@ -35,7 +35,7 @@ class Pendaftaran extends CI_Controller
 
         } else {
 
-            $data['asuransii'] = $this->PendaftaranModel->asuransi();
+            $data['asuransi'] = $this->PendaftaranModel->asuransi();
             $data['poliklinik'] = $this->PendaftaranModel->poliklinik();
     
             $this->template->render('admision.pendaftaran.index', $data);

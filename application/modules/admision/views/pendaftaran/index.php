@@ -178,7 +178,7 @@
 
                 $.ajax({
                     type: $(this).attr('method'),
-                    data: $(this).serializ(),
+                    data: $(this).serialize(),
                     dataType: 'json',
                     success: function(response){
                         alert(response.message);

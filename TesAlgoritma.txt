@@ -1,0 +1,10 @@
+<?php
+
+$numbers = [1, 3, 5, 6, 3, 2, 3, 8, 9, 10, 15, 13];
+
+$arr2 = range(1,max($numbers));                                                 
+
+$missing = array_values(array_diff($arr2,$numbers));
+
+print_r($missing);
+?>

@@ -36,7 +36,7 @@
                                             <label for="nik" class="col-form-label">NIK</label>
                                         </div>
                                         <div class="col-sm-8">
-                                            <input type="text" id="nik" name="nik" class="form-control" required>
+                                            <input type="number" id="nik" name="nik" class="form-control" required>
                                         </div>
                                     </div>
                                 </div>

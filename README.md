@@ -1,6 +1,8 @@
 # Skill Test Assignment:
 
-Silahkan clone repo ini ke komputer anda, dan jangan lupa untuk mengimport db_test.sql
+Silahkan clone repo ini ke komputer anda, dan jangan lupa untuk mengimport db_test.sql,
+
+Buat branch dengan nama <nama_sendiri>
 
 Untuk test skill akan ada 3 tes:
 
